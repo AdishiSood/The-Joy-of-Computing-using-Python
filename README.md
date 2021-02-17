@@ -31,3 +31,6 @@ A fun filled whirlwind tour of 30 hrs, covering everything you need to know to f
 * Snakes and Ladders : Down the memory lane.
 * Recursion : Tower of Hanoi
 * Page Rank : How Google Works !!
+
+
+### You can know more about this course by clicking [here](https://onlinecourses.nptel.ac.in/noc20_cs35/preview)
