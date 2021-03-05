@@ -1,4 +1,4 @@
-/*
+"""
 You are provided with the number of rows (R) and columns (C). 
 Your task is to generate the matrix having R rows and C columns such that all the numbers are in increasing order starting from 1 in row wise manner.
 
@@ -20,7 +20,8 @@ Output:
 4 5 6
 7 8 9
 
-*/
+"""
+
 count=1
 m = []
 for i in range (1,a+1):
