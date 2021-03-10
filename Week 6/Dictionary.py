@@ -29,3 +29,8 @@ Explanation:
 Here n is 8, we will start from i=1, hence the first element of the dictionary is (1: 1), as i becomes 2, the second element of the dictionary becomes (2: 8) and so on.
 Hence the output will be {1: 1, 2: 8, 3: 27, 4: 64, 5: 125, 6: 216, 7: 343, 8: 512}.
 """
+n=int(input())
+d=dict()
+for i in range(1,n+1):
+  d[i]=i*i*i
+print(d,end="")
