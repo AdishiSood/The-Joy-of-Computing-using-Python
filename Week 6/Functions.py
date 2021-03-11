@@ -18,3 +18,12 @@ Output:
 
 NOTE: You are supposed to write the code for the function printDict() only. The function has already been called in the main part of the code.
 """
+
+def printDict():
+  x=int(input())
+  d={}
+  for i in range(x):
+    d[i+1]=(i+1)**2
+  print(d,end='')
+printDict()
+printDict()
