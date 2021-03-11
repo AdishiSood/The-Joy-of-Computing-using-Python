@@ -1,5 +1,6 @@
 """
-Given an integer number n, define a function named printDict() which can print a dictionary where the keys are numbers between 1 and n (both included) and the values are square of keys.
+Given an integer number n, define a function named printDict() which can print a dictionary where the keys 
+are numbers between 1 and n (both included) and the values are square of keys.
 The function printDict() doesn't take any argument.
 
 Input Format:
@@ -9,7 +10,6 @@ Output Format:
 Print the dictionary in one line.
 
 Example:
-
 Input:
 5
 
