@@ -18,3 +18,21 @@ Input:
 Output:
 YES
 """
+n=int(input())
+arr=[]
+for i in range(n):
+  brr=[]
+  brr=input().split()
+  arr.append(brr)
+  
+total=n*n
+count=0
+
+for i in range(n):
+  for j in range(n):
+    if(arr[i][j]==arr[j][i]):
+      count+=1
+if(count==total):
+  print("YES",end="")
+else:
+  print("NO",end="")
