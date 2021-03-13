@@ -24,4 +24,17 @@ Input:
 Output:
 12 24 35
 """
+arr=[]
+arr=input().split()
+brr=[]
 
+for i in range(len(arr)):
+  if arr[i] in brr:
+    continue;
+  else:
+    brr.append(arr[i])
+    
+for i in range(len(brr)):
+  print(brr[i],end="")
+  if(i!=len(brr)-1):
+    print(" ",end="")
