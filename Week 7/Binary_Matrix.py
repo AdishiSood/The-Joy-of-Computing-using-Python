@@ -19,3 +19,19 @@ Input:
 Output:
 YES
 """
+x,y=input().split()
+x=int(x)
+y=int(y)
+arr=[]
+for i in range(x):
+  t=[]
+  t=input().split()
+  arr.append(t)
+bin=True
+for i in range(x):
+    for j in range(y):
+        if(int(arr[i][j])!=1 and int(arr[i][j])!=0):
+          bin=False
+          break
+if bin : print("YES",end="")
+else:print("NO",end="")
