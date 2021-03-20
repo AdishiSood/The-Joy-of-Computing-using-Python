@@ -13,3 +13,16 @@ Hello World!!
 Sample Output:
 hELLO wORLD!!
 """
+s = input()
+
+
+def convert(ss):
+    # Convert it into list and then change it
+    newSS = list(ss)
+    for i,c in enumerate(newSS):
+        newSS[i] = c.upper() if c.islower() else c.lower()
+    # Convert list back to string
+    return ''.join(newSS)
+
+
+print(convert(s))
