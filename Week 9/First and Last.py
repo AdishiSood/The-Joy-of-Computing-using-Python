@@ -13,3 +13,9 @@ Programming
 Sample Output:
 Prng
 """
+s=input()
+output=""
+if(len(s)<2):
+  print("",end="")
+else:
+  print(s[0:2]+s[-2:-1]+s[-1],end="")
