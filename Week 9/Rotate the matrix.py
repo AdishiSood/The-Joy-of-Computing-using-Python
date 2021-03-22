@@ -50,3 +50,32 @@ In the first example, there is an odd number of rows and columns hence excluding
 In the second example, there are even number of rows and columns hence all the elements were shifted by one position in a clockwise manner
 
 """
+n=int(input())
+m=[]
+for i in range(n):
+  l=list(map(int,input().split()))
+  m.append(l)
+output=[[0 for i in range(n)] for j in range(n)]
+x=0;xe=n;y=0;ye=n
+if(n%2==1):
+  output[n//2][n//2]=m[n//2][n//2]
+while(x<xe):
+  for i in range(x+1,xe):
+    output[y][i]=m[y][i-1]
+  y=y+1
+  for i in range(y,ye):
+    output[i][xe-1]=m[i-1][xe-1]
+  xe=xe-1
+  for i in range(xe-1,x-1,-1):
+    output[ye-1][i]=m[ye-1][i+1]
+  ye=ye-1
+  for i in range(ye-1,y-2,-1):
+    output[i][x]=m[i+1][x]
+  x=x+1 
+for i in range(n):
+  for j in range(n):
+    print(output[i][j],end="")
+    if(j!=n-1):
+      print(" ",end="")
+  if(i!=n-1):
+    print()
