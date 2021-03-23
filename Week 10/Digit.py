@@ -27,7 +27,16 @@ NO
 Explanation:
 In the first example, it is possible to make all the digits same by flipping the middle digit from 0 to 1. In the second example it is not possible.
 """
+s=list(input())
+if s.count('0')==1 or s.count('1')==1:
+  print("YES",end="")
+else:
+  print("NO",end="")
 numbers = []
+
+
+
+or
 
     
 ls = []
