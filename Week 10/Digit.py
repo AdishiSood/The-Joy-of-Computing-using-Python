@@ -26,3 +26,4 @@ NO
 
 Explanation:
 In the first example, it is possible to make all the digits same by flipping the middle digit from 0 to 1. In the second example it is not possible.
+"""
