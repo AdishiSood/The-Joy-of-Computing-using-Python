@@ -23,3 +23,6 @@ n=(len(l)+1)*(len(l)+2)//2
 for i in l:
   n=n-i
 print(n,end="")
+
+
+or
