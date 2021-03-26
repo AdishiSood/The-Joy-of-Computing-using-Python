@@ -18,3 +18,8 @@ Output:
 Explanation:
 In the above list of numbers 5 is missing and hence 5 is the input
 """
+l=[int(i) for i in input().split()]
+n=(len(l)+1)*(len(l)+2)//2
+for i in l:
+  n=n-i
+print(n,end="")
