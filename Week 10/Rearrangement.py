@@ -28,3 +28,8 @@ for i in ans:
     print(i,end="")
   else:
     print(i,end=" ")
+
+    
+    or
+    
+    
