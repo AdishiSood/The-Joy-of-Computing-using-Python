@@ -18,3 +18,13 @@ Output:
 Explanation:
 The modified list contains elements such that A[i] = i.
 """
+l=[int(i) for i in input().split()]
+ans=[]
+for i in range(len(l)):
+  if (i in l):ans.append(i)
+  else:ans.append(-1)
+for i in ans:
+  if i==len(ans)-1:
+    print(i,end="")
+  else:
+    print(i,end=" ")
