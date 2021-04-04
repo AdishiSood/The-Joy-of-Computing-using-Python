@@ -1,3 +1,4 @@
+"""
 Write a program that calculates and prints the value according to the given formula:
 Q = Square root of [(2 * C * D)/H]
 Following are the fixed values of C and H:
@@ -17,3 +18,4 @@ Input:
 
 Output:
 18,22,24
+"""
