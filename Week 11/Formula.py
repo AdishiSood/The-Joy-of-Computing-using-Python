@@ -19,3 +19,17 @@ Input:
 Output:
 18,22,24
 """
+import math
+l=[]
+l=input().split(',')
+for i in range(len(l)):
+  l[i]=int(l[i])
+for i in range(len(l)):
+  val=math.sqrt((2*50*l[i])/30)
+  print(round(val),end="")
+  if(i!=len(l)-1):
+    print(",",end="")
+    
+    
+    or
+    
