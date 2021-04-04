@@ -32,7 +32,9 @@ for i in range(len(l)):
     
     
     or
-    import math
+    
+    
+import math
 c=50
 h=30
 value = []
