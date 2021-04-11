@@ -11,3 +11,15 @@ Constraints:
 1000<=m<=9000
 1000<=n<=9000
 """
+
+(b,e)=input().split(',')
+(b,e)=(int(b),int(e))
+f=[]
+for i in range(b,e+1,2):
+  l=list(str(i))
+  for x in l:
+    if int(x)%2!=0:
+      break
+  else:
+    f.append(str(i))
+print(",".join(f),end="")
