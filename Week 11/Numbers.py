@@ -23,3 +23,5 @@ for i in range(b,e+1,2):
   else:
     f.append(str(i))
 print(",".join(f),end="")
+
+or
