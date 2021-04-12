@@ -17,11 +17,16 @@ Output:
 Explanation:
 Here the elements of A are 1,2,3,4,5,6,5 and since 5 is the multiple of 5, after removing them the list becomes 1,2,3,4,6.
 """
+
 n = list(map(int, input().split()))
 for i in n:
   if(i%5!=0):
     print(i,end = " ")
+    
+    
 or
+
+
 a = [int(x) for x in input().split()]
 b = []
 for i in a:
