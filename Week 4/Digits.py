@@ -18,7 +18,7 @@ YES
 Explanation: 
 If you flip the middle digit from 0 to 1 then all the digits will become same. Hence output is YES.
 """
-
+or
 list1=input()
 #print(list1)
 x=list1.count('1')
