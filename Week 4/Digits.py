@@ -39,7 +39,12 @@ else:
         print("NO")
     else:
         print("NO")
+        
+        
 or
+
+
+
 list1=input()
 #print(list1)
 x=list1.count('1')
