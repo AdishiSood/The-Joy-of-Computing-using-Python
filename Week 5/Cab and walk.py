@@ -38,3 +38,6 @@ if(tv1>tv2):
   print("Cab",end="")
 else:
   print("Walk",end="")
+
+  
+  or
