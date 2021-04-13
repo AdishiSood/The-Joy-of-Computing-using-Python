@@ -27,6 +27,8 @@ if (n in li):
   print('Yes',end="")
 else:
   print('No',end="")
+  
+  
 or
 
 
